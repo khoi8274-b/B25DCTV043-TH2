@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "ma": "S001",
+    "ten": "Nhà giả kim",
+    "tacGia": "Paulo Coelho",
+    "theLoai": "Tiểu thuyết",
+    "nam": 1988
+  },
+  {
+    "id": "2",
+    "ma": "S002",
+    "ten": "Số đỏ",
+    "tacGia": "Vũ Trọng Phụng",
+    "theLoai": "Tiểu thuyết",
+    "nam": 1936
+  },
+  {
+    "id": "3",
+    "ma": "S003",
+    "ten": "Tắt đèn",
+    "tacGia": "Ngô Tất Tố",
+    "theLoai": "Tiểu thuyết",
+    "nam": 1939
+  },
+  {
+    "id": "4",
+    "ma": "S004",
+    "ten": "Chí Phèo",
+    "tacGia": "Nam Cao",
+    "theLoai": "Truyện ngắn",
+    "nam": 1941
+  },
+  {
+    "id": "5",
+    "ma": "S005",
+    "ten": "Lão Hạc",
+    "tacGia": "Nam Cao",
+    "theLoai": "Truyện ngắn",
+    "nam": 1943
+  },
+  {
+    "id": "6",
+    "ma": "S006",
+    "ten": "Dế Mèn phiêu lưu ký",
+    "tacGia": "Tô Hoài",
+    "theLoai": "Thiếu nhi",
+    "nam": 1941
+  },
+  {
+    "id": "7",
+    "ma": "S007",
+    "ten": "Đất rừng phương Nam",
+    "tacGia": "Đoàn Giỏi",
+    "theLoai": "Thiếu nhi",
+    "nam": 1957
+  },
+  {
+    "id": "8",
+    "ma": "S008",
+    "ten": "Harry Potter và Hòn đá Phù thủy",
+    "tacGia": "J.K. Rowling",
+    "theLoai": "Thiếu nhi",
+    "nam": 1997
+  },
+  {
+    "id": "9",
+    "ma": "S009",
+    "ten": "Clean Code",
+    "tacGia": "Robert C. Martin",
+    "theLoai": "Kỹ thuật",
+    "nam": 2008
+  },
+  {
+    "id": "10",
+    "ma": "S010",
+    "ten": "The Pragmatic Programmer",
+    "tacGia": "Andrew Hunt",
+    "theLoai": "Kỹ thuật",
+    "nam": 1999
+  },
+  {
+    "id": "11",
+    "ma": "S011",
+    "ten": "Những người khốn khổ",
+    "tacGia": "Victor Hugo",
+    "theLoai": "Tiểu thuyết",
+    "nam": 1862
+  }
+]

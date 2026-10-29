@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thư viện lớp</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>📚 Thư viện lớp</h1>
+      <p class="fav-count">❤️ <span id="fav-count">0</span> yêu thích</p>
+      <button id="theme-toggle" type="button" class="theme-toggle">🌙</button>
+    </header>
+
+    <main class="container">
+      <section class="toolbar" aria-label="Thanh công cụ">
+        <input type="search" id="search" placeholder="Tìm theo tên sách..." />
+        <select id="genre-filter">
+          <option value="all">Tất cả thể loại</option>
+        </select>
+      </section>
+
+      <p class="status" id="status">Đang tải...</p>
+
+      <ul class="book-grid" id="book-grid"></ul>
+
+      <section class="form-section" aria-label="Thêm sách mới">
+        <h2>Thêm sách mới</h2>
+        <form id="book-form" novalidate>
+          <div class="field">
+            <label for="ten">Tên sách</label>
+            <input type="text" id="ten" name="ten" />
+            <span class="error" id="error-ten"></span>
+          </div>
+          <div class="field">
+            <label for="tacGia">Tác giả</label>
+            <input type="text" id="tacGia" name="tacGia" />
+            <span class="error" id="error-tacGia"></span>
+          </div>
+          <div class="field">
+            <label for="theLoai">Thể loại</label>
+            <select id="theLoai" name="theLoai">
+              <option value="">-- Chọn thể loại --</option>
+            </select>
+            <span class="error" id="error-theLoai"></span>
+          </div>
+          <div class="field">
+            <label for="nam">Năm xuất bản</label>
+            <input type="number" id="nam" name="nam" />
+            <span class="error" id="error-nam"></span>
+          </div>
+          <button type="submit">Thêm sách</button>
+        </form>
+      </section>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
